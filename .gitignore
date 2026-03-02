@@ -1,0 +1,50 @@
+# ─── Delphi ───────────────────────────────────────────────────────────────────
+*.dcu
+*.dcp
+*.dcpil
+*.drc
+*.exe
+*.map
+*.local
+*.identcache
+*.tvsconfig
+*.dsk
+__history/
+__recovery/
+
+# Recursos compilados (o .res fonte pode ser mantido se gerado manualmente)
+*.res
+
+# Saída de build
+Win32/
+Win64/
+Linux64/
+
+# ─── Banco de dados ───────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Variáveis de ambiente / segredos ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+# docker-compose.yml é commitado
+# Ignorar apenas volumes e dados gerados em runtime
+docker/data/
+docker/volumes/
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
