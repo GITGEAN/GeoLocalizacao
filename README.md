@@ -95,14 +95,6 @@ GeoManager/
 
 ---
 
-## 📚 Para Estudar
-
-1. **Leia o código** na ordem: Models → DAO → Services → Integration → Views
-2. **Leia o `INTERVIEW_GUIDE.md`** em `Docs/` — tem perguntas e respostas completas
-3. **Todos os arquivos têm comentários extensos** explicando conceitos
-4. **Execute o projeto** e explore o mapa ArcGIS
-5. **Crie o banco** e teste o CRUD de POIs
-
 ### Referências
 - [ArcGIS REST API](https://developers.arcgis.com/rest/)
 - [ArcGIS JavaScript API](https://developers.arcgis.com/javascript/)
